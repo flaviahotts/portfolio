@@ -19,18 +19,15 @@ const Contact = () => {
         <h2 className='py-4'>Get In Touch</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left side */}
-          <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
-            <div className='lg:p-4 h-full '>
-              <div>
-                <Image
-                  className='rounded-xl hover:scale-105 ease-in duration-300'
-                  src={ContactImg}
-                  alt='/'
-                />
-              </div>
-              <div>
-                
-                <p className='py-4'>
+          <div className='col-span-3 lg:col-span-2 w-full h-full shadow-md shadow-gray-400 flex items-center justify-center rounded-xl p-4'>
+            <div className='lg:p-8 h-full '>
+            <a href="mailto:flavia.hotts@gmail.com">
+            <div className='w-full h-auto m-auto shadow-md shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+            <Image src={ContactImg} className='rounded-xl' alt='/' />
+            </div>  
+            </a>            
+            <div>                
+                <p className='py-8 text-gray-200'>
                   I'm available for freelance or full-time positions. Contact
                   me and let&apos;s talk.
                 </p>
@@ -39,11 +36,11 @@ const Contact = () => {
                 <p className='uppercase pt-8 text-[#ae3cfa]'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
                   <a
-                    href='https://www.linkedin.com/in/flavia-hotts-5053b826/'
+                    href='https://www.linkedin.com/in/flavia-hotts/'
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='text-[#ae3cfa] rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaLinkedinIn />
                     </div>
                   </a>
@@ -52,12 +49,12 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='text-[#ae3cfa] rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaGithub />
                     </div>
                   </a>
                   <a href="mailto:flavia.hotts@gmail.com">
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                  <div className='text-[#ae3cfa] rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail />
                   </div>
                   </a>
@@ -67,10 +64,10 @@ const Contact = () => {
           </div>
 
           {/* right side */}
-          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
+          <div className='col-span-3 w-full h-auto shadow-md shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
               <form
-                action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
+                action='https://getform.io/f/5a8f3afd-ca8c-4219-a2ee-68441ad12376'
                 method='POST'
                 enctype='multipart/form-data'
               >
@@ -78,7 +75,7 @@ const Contact = () => {
                   <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>Name</label>
                     <input
-                      className='border-2 rounded-lg p-3 flex border-gray-300'
+                      className='border-2 rounded-lg p-3 flex border-gray-300 bg-[#2b2b2b]'
                       type='text'
                       name='name'
                     />
@@ -88,7 +85,7 @@ const Contact = () => {
                       Phone Number
                     </label>
                     <input
-                      className='border-2 rounded-lg p-3 flex border-gray-300'
+                      className='border-2 rounded-lg p-3 flex border-gray-300 bg-[#2b2b2b]'
                       type='text'
                       name='phone'
                     />
@@ -97,7 +94,7 @@ const Contact = () => {
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2'>Email</label>
                   <input
-                    className='border-2 rounded-lg p-3 flex border-gray-300'
+                    className='border-2 rounded-lg p-3 flex border-gray-300 bg-[#2b2b2b]'
                     type='email'
                     name='email'
                   />
@@ -105,7 +102,7 @@ const Contact = () => {
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2'>Subject</label>
                   <input
-                    className='border-2 rounded-lg p-3 flex border-gray-300'
+                    className='border-2 rounded-lg p-3 flex border-gray-300 bg-[#2b2b2b]'
                     type='text'
                     name='subject'
                   />
@@ -113,12 +110,12 @@ const Contact = () => {
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2'>Message</label>
                   <textarea
-                    className='border-2 rounded-lg p-3 border-gray-300'
+                    className='border-2 rounded-lg p-3 border-gray-300 bg-[#2b2b2b]'
                     rows='10'
                     name='message'
                   ></textarea>
                 </div>
-                <button className='w-full p-4 bg-[#d19df3] text-gray-800 mt-4'>
+                <button className='w-full p-4 shadow-md bg-[#d19df3] text-gray-800 mt-4 font-semibold'>
                   Send 
                 </button>
               </form>
@@ -128,7 +125,7 @@ const Contact = () => {
         <div className='flex justify-center py-12'>
           <Link href='/'>
             <a>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-md shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <HiOutlineChevronDoubleUp
                   className='text-[#ae3cfa]'
                   size={30}
