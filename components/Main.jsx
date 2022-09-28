@@ -38,11 +38,11 @@ const Main = () => {
                 <FaGithub />
               </div>
             </a>
-            <Link href='/#contact'>
+            <a href="mailto:flavia.hotts@gmail.com">
               <div className='text-[#ae3cfa] rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiOutlineMail />
               </div>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
