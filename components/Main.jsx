@@ -15,7 +15,7 @@ const Main = () => {
           <h1 className='py-4'>
             Hello, I'm <span className='text-[#ae3cfa]'> Flavia</span>
           </h1>
-          <h1 className='py-2'>A Web Developer</h1>
+          <h1 className='py-2'>Full Stack Developer</h1>
           <p className='py-4 text-gray-200 sm:max-w-[70%] m-auto'>
             Welcome to my portfolio which was developed using Next.js and Tailwind CSS.
           </p>
