@@ -14,21 +14,21 @@ const About = () => {
             About Me
           </p>
           <h2 className='py-4'>Who I Am</h2>
-          <p className='py-2 text-gray-200'>
+          <p className='text-justify py-2 text-gray-200'>
           My name is Flavia and I'm based in Manchester, UK.
           </p>
-          <p className='py-2 text-gray-200'>
+          <p className='text-justify py-2 text-gray-200'>
             Currently changing careers from Enviromental Engeneering to Web Development.
             I started learning HTML and CSS to building websites and my interests for programming was only increasing.
             Fascinated with how powerful programming can be I was quickly drawn to learn more.
             I thought it would be the right time to decide to go deeper into coding and start a new path in my professional life.
           </p>
-          <p className='py-2 text-gray-200'>
+          <p className='text-justify py-2 text-gray-200'>
             I recently graduated from a Full Stack Web Development Bootcamp and I'm dedicating myself to keep learning in this field. 
             I'm focused on front-end web applications but also open to learning back-end technologies.
             I'm now spending my time learning JavaScript, React, Next.js and TypeScript.            
           </p>
-          <p className='py-2 text-gray-200'>
+          <p className='text-justify py-2 text-gray-200'>
             I enjoy learning new things and some of my passions are about nature, technology, arts, cooking and travelling.      
           </p>
           <Link href='/#projects'>

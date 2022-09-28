@@ -26,8 +26,8 @@ const weatherapp = () => {
         <div className='col-span-4'>
           <p className='text-[#ae3cfa]'>Project</p>
           <h2>Overview</h2>
-          <p>This app was built using JavaScript and is hosted on Netlify.</p>
-          <p>It has connection with the Open Weather API, so users are able to search cities and see the forecast for the next following 5 days.</p>
+          <p className='text-justify'>This app was built using JavaScript and is hosted on Netlify.</p>
+          <p className='text-justify'>It has connection with the Open Weather API, so users are able to search cities and see the forecast for the next following 5 days.</p>
           <a
             href='https://github.com/flaviahotts/vanilla-weather-app'
             target='_blank'

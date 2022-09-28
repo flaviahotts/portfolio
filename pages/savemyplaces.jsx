@@ -26,11 +26,11 @@ const savemyplaces = () => {
         <div className='col-span-4'>
           <p className='text-[#ae3cfa]'>Project</p>
           <h2>Overview</h2>
-          <p>This app was built using the MERN stack: MongoDB, ExpressJS, ReactJS, NodeJS and is hosted on Netlify.</p> 
-          <p>It has a REST API backend built with ExpressJS, MongoDB and Mongoose with routes that perform all CRUD actions and has a frontend React app that communicate with.
+          <p className='text-justify'>This app was built using the MERN stack: MongoDB, ExpressJS, ReactJS, NodeJS and is hosted on Netlify.</p> 
+          <p className='text-justify'>It has a REST API backend built with ExpressJS, MongoDB and Mongoose with routes that perform all CRUD actions and has a frontend React app that communicate with.
             It also included sign-up, log-in and log-out functionality, so users are able signup and signin to their
             account with an email address in order to save your favorite places on the map.</p> 
-          <p>The app is currently work in progress. Next steps are render a interactive map using an API and add a click function to select a specific place on the map and create a pin</p>         
+          <p className='text-justify'>The app is currently work in progress. Next steps are render a interactive map using an API and add a click function to select a specific place on the map and create a pin</p>         
           <a
             href='https://github.com/flaviahotts/save-my-places-frontend'
             target='_blank'

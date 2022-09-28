@@ -26,9 +26,9 @@ const game = () => {
         <div className='col-span-4'>
           <p className='text-[#ae3cfa]'>Project</p>
           <h2>Overview</h2>
-          <p> SpongeBob Jump is inpired by the Dinosaur Game developed by Google.</p>
-          <p> To play the game you just need to avoid the obstacles by jumping across a side-scrolling landscape. Easy peasy!</p>
-          <p>This game was built using HTML, CSS and JavaScript.</p>
+          <p className='text-justify'> SpongeBob Jump is inpired by the Dinosaur Game developed by Google.</p>
+          <p className='text-justify'>To play the game you just need to avoid the obstacles by jumping across a side-scrolling landscape. Easy peasy!</p>
+          <p className='text-justify'>This game was built using HTML, CSS and JavaScript.</p>
           <a
             href='https://github.com/flaviahotts/game-project'
             target='_blank'

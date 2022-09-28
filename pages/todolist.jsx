@@ -26,8 +26,8 @@ const todolist = () => {
         <div className='col-span-4'>
           <p className='text-[#ae3cfa]'>Project</p>
           <h2>Overview</h2>
-          <p>This app was built using ReactJS and is hosted on Netlify. </p>
-          <p>It has all the CRUD operations, so users are able to create, read, update and delete their tasks.</p>
+          <p className='text-justify'>This app was built using ReactJS and is hosted on Netlify. </p>
+          <p className='text-justify'>It has all the CRUD operations, so users are able to create, read, update and delete their tasks.</p>
           <a
             href='https://github.com/flaviahotts/todo-list-app'
             target='_blank'
