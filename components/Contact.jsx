@@ -132,8 +132,9 @@ const Contact = () => {
                 />
               </div>
             </a>
-          </Link>
+          </Link>          
         </div>
+      <div className='text-center'>Built by Flavia Hotts ❤</div> 
       </div>
     </div>
   );
