@@ -25,7 +25,7 @@ const About = () => {
           <p className='text-justify py-2 text-gray-200'>
             I recently graduated from a Full Stack Web Development Bootcamp and I'm dedicating myself to keep learning in this field. 
             I'm focused on front-end web applications but also open to learning back-end technologies.
-            I'm now spending my time learning JavaScript, React, Next.js and TypeScript.            
+            I'm now spending my time studying JavaScript, React and Next.js.            
           </p>
           <p className='text-justify py-2 text-gray-200'>
             I enjoy learning new things and some of my passions are about nature, technology, arts, cooking and travelling.      
@@ -36,7 +36,7 @@ const About = () => {
             </p>
           </Link>
         </div>
-        <div className='w-full h-auto m-auto shadow-md shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+        <div className='w-full h-auto m-auto shadow-md shadow-gray-400 rounded-xl flex items-center justify-center p-2 hover:scale-105 ease-in duration-300'>
           <a
             href='https://www.linkedin.com/in/flavia-hotts/'
             target='_blank'
