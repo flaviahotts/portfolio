@@ -3,6 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import AboutImg from '../public/assets/about.jpg';
+import FlaviaProfile from '../public/assets/flavia-profile.jpg'
 
 const About = () => {
   return (
@@ -17,7 +18,7 @@ const About = () => {
           My name is Flavia and I'm based in Manchester, UK.
           </p>
           <p className='text-justify py-2 text-gray-200'>
-            Currently changing careers from Enviromental Engeneering to Web Development.
+            Currently changing careers from Environmental Engineering to Web Development.
             I started learning HTML and CSS to building websites and my interests for programming was only increasing.
             Fascinated with how powerful programming can be I was quickly drawn to learn more.
             I thought it would be the right time to decide to go deeper into coding and start a new path in my professional life.
@@ -41,7 +42,7 @@ const About = () => {
             href='https://www.linkedin.com/in/flavia-hotts/'
             target='_blank'
             rel='noreferrer'>
-            <Image src={AboutImg} className='rounded-xl' alt='/' />
+            <Image src={FlaviaProfile} className='rounded-xl' alt='/' />
           </a>
         </div>
       </div>

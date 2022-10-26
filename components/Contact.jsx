@@ -7,6 +7,7 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import ContactImg from '../public/assets/contact.jpg'
+import AboutImg from '../public/assets/about.jpg';
 
 const Contact = () => {
 
@@ -23,7 +24,7 @@ const Contact = () => {
             <div className='lg:p-8 h-full '>
             <a href="mailto:flavia.hotts@gmail.com">
             <div className='w-full h-auto m-auto shadow-md shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-            <Image src={ContactImg} className='rounded-xl' alt='/' />
+            <Image src={AboutImg} className='rounded-xl' alt='/' />
             </div>  
             </a>            
             <div>                
