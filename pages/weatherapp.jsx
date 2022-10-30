@@ -18,7 +18,7 @@ const weatherapp = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Weather App</h2>
-          <h3>HTML/ CSS / JavaScript / Netlify</h3>
+          <h3>HTML/ CSS / Vanilla JavaScript / Netlify</h3>
         </div>
       </div>
 
@@ -26,7 +26,7 @@ const weatherapp = () => {
         <div className='col-span-4'>
           <p className='text-[#ae3cfa]'>Project</p>
           <h2>Overview</h2>
-          <p className='text-justify'>This app was built using JavaScript and is hosted on Netlify.</p>
+          <p className='text-justify'>This app was built using Vanilla JavaScript and is hosted on Netlify.</p>
           <p className='text-justify'>It has connection with the Open Weather API, so users are able to search cities and see the forecast for the next following 5 days.</p>
           <a
             href='https://github.com/flaviahotts/vanilla-weather-app'
@@ -54,7 +54,7 @@ const weatherapp = () => {
                 <RiRadioButtonFill className='pr-1 text-[#ae3cfa]' /> CSS
               </p>
               <p className='text-gray-200 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1 text-[#ae3cfa]' /> JavaScript
+                <RiRadioButtonFill className='pr-1 text-[#ae3cfa]' /> Vanilla JavaScript
               </p>
               <p className='text-gray-200 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1 text-[#ae3cfa]' /> OpenWeather API

@@ -19,7 +19,7 @@ const Projects = () => {
             title='Weather App'
             backgroundImg={weatherappImg}
             projectUrl='/weatherapp'
-            tech='HTML - CSS - JavaScript'
+            tech='HTML - CSS - Vanilla JavaScript'
           />
           <ProjectItem
             title='Jumping Game'
