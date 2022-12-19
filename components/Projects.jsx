@@ -1,7 +1,7 @@
 import React from 'react';
 import weatherappImg from '../public/assets/projects/weatherapp.jpg';
 import gameImg from '../public/assets/projects/game.jpg';
-import todolistImg from '../public/assets/projects/todolist.jpg';
+import websiteImg from '../public/assets/projects/website.jpg';
 import savemyplacesImg from '../public/assets/projects/savemyplaces.jpg';
 import ProjectItem from './ProjectItem';
 
@@ -26,22 +26,26 @@ const Projects = () => {
             backgroundImg={gameImg}
             projectUrl='/game'
             tech='HTML - CSS - JavaScript'
-
           />
-          <ProjectItem
+          {/* <ProjectItem
             title='Todo List'
             backgroundImg={todolistImg}
             projectUrl='/todolist'
             tech='React - Bootstrap'
-
-          />
+          /> */}
           <ProjectItem
-            title='Save My Places'
+            title='Save My Places' 
             backgroundImg={savemyplacesImg}
             projectUrl='/savemyplaces'
             tech='MongoDB - Express - React - Node - Ant Design'
-
           />
+          <ProjectItem
+            title='Business Website' 
+            backgroundImg={websiteImg}
+            projectUrl='/website'
+            tech='HTML - CSS'
+          />
+
         </div>
       </div>
     </div>
