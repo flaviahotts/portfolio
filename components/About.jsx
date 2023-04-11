@@ -26,10 +26,10 @@ const About = () => {
           <p className='text-justify py-2 text-gray-200'>
             I recently graduated from a Full Stack Web Development Bootcamp and I'm dedicating myself to keep learning in this field. 
             I'm focused on front-end web applications but also open to learning back-end technologies.
-            I'm now spending my time studying JavaScript, React and Next.js.            
+            I'm now spending my time studying JavaScript, React and React Native.          
           </p>
           <p className='text-justify py-2 text-gray-200'>
-            I enjoy learning new things and some of my passions are about nature, technology, arts, cooking and travelling.      
+            I enjoy learning new things and some of my passions are about nature, technology, arts, k-dramas, cooking and travelling.      
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-[#ae3cfa] underline cursor-pointer'>

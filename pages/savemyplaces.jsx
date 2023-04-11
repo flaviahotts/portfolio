@@ -76,4 +76,13 @@ const savemyplaces = () => {
   );
 };
 
+function MyApp({ Navbar, Component, pageProps }) {
+  return (
+  <>
+  <Navbar />
+  <Component {...pageProps} />
+  
+  </> 
+  )};
+
 export default savemyplaces;
