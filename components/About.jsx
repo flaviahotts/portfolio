@@ -3,7 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 // import AboutImg from '../public/assets/about.jpg';
-import FlaviaProfile from '../public/assets/flavia.JPG'
+import FlaviaProfile from '../public/assets/flavia2.jpeg'
 
 const About = () => {
   return (
@@ -15,7 +15,7 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='text-justify py-2 text-gray-200'>
-          My name is Flavia and I'm based in Manchester, UK.
+          My name is Flavia and I'm based in the North West of England, UK.
           </p>
           <p className='text-justify py-2 text-gray-200'>
             Currently changing careers from Environmental Engineering to Web Development.
